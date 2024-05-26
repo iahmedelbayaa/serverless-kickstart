@@ -1,0 +1,21 @@
+{
+  "name": "serverless-kickstart",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "serverless offline --stage dev",
+    "deploy": "serverless deploy --stage prod"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.9.3",
+    "drizzle-orm": "^0.30.10",
+    "express": "^4.18.2",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.21.4",
+    "serverless": "^4.0.24",
+    "serverless-dotenv-plugin": "^6.0.0",
+    "serverless-offline": "^13.6.0"
+  }
+}
