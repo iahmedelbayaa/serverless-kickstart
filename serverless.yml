@@ -21,16 +21,19 @@ plugins:
 # // functions to handle the requests 
 functions:
   api:
-    handler: handler.handler
+    createAuction:
+    handler: handler.createAuction
     events:
-      - httpApi: '*'
+      - httpApi:
+          path: /auctions
+          method: POST
 # // dynamodb for nosql database
 resources:
   Resources:
-    UsersTable:
+    AuctionsTable:
       Type: AWS::DynamoDB::Table
       Properties:
-        TableName: Users
+        TableName: Auctions
         AttributeDefinitions:
           - AttributeName: id
             AttributeType: S

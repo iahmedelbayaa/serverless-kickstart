@@ -51,6 +51,10 @@ for show details for deploy on aws
 ```
 serverless deploy -v
 ``` 
+to deploy specific function 
+```
+sls deploy -f createAuction -v
+``` 
 
 After running deploy, you should see output similar to:
 
