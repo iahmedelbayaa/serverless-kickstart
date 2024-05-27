@@ -21,14 +21,20 @@ This template configures a single function, `api`, which is responsible for hand
 
 ## Usage
 
-### to create app 
+### 1- config aws cli 
+
+```
+aws config
+```
+
+### 2- to create app 
 ```
 serverless or sls 
 ```
 select type of your serverless to start create a templete 
 
 
-### Deployment
+### 3- Deployment
 
 Install dependencies with:
 
@@ -41,6 +47,7 @@ and then deploy with:
 ```
 serverless deploy
 ```
+for show details for deploy on aws 
 ```
 serverless deploy -v
 ``` 
