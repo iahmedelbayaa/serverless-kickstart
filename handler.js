@@ -20,4 +20,9 @@ app.use((req, res, next) => {
   });
 });
 
+
+async function crearteUser(req, res, next) {
+ 
+}
+
 exports.handler = serverless(app);

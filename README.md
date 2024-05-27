@@ -34,6 +34,9 @@ and then deploy with:
 ```
 serverless deploy
 ```
+```
+serverless deploy -v
+``` 
 
 After running deploy, you should see output similar to:
 
