@@ -21,6 +21,13 @@ This template configures a single function, `api`, which is responsible for hand
 
 ## Usage
 
+### to create app 
+```
+serverless or sls 
+```
+select type of your serverless to start create a templete 
+
+
 ### Deployment
 
 Install dependencies with:
