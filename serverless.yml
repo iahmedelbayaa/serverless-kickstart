@@ -18,6 +18,7 @@ plugins:
   - serverless-dotenv-plugin
 
 
+
 # // functions to handle the requests 
 functions:
   api:
